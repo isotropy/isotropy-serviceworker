@@ -1,0 +1,25 @@
+{
+  "name": "isotropy-webdisk-service",
+  "version": "0.0.1",
+  "author": "Isotropy Team<isotropy@agilehead.com>",
+  "contributors": [
+    "Jeswin Kumar<jeswinpk@agilehead.com>"
+  ],
+  "scripts": {
+    "build": "./build.sh",
+    "test": "mocha dist/test/test.js",
+    "debug": "mocha dist/test/test.js --debug-brk"
+  },
+  "main": "dist/isotropy-db.js",
+  "dependencies": {
+    "lazy-linq": "^1.0.3"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.44",
+    "@types/node": "^8.0.57",
+    "@types/should": "^11.2.0",
+    "mocha": "*",
+    "should": "*"
+  },
+  "license": "MIT"
+}
