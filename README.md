@@ -1,2 +1,1 @@
-# Isotropy Webdisk Service
-
+# Service Worker for Isotropy Env Emulation
